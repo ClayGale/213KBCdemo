@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="beer.css">
+        <title>Okanagan Beer Club</title>
+    </head>
+    <body>
+        <header>
+            <?php
+            include 'headerFiller.php';
+            fillheader();
+            ?>
+        </header>
+        <main class="smallform">
+
+            <form class='tblock' method='POST' action='' id='reviewform'>
+                <h2>Select What Beer to Review</h2>
+                <select name='beer'>
+                    <option value="" disabled selected>Select Beer</option>
+                    <option value='ale'>Ale</option>
+                    <option value='stout'>Stout</option>
+                    <option value='lager'>Lager</option>
+                    <option value='malt'>Malt</option>
+                </select>
+        <footer><p>Copyright &copy; CK technologies</p>
+            </footer>
+    </body>
+</html>

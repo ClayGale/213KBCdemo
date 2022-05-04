@@ -1,0 +1,316 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+div.container {
+	
+}
+
+body{
+    font-family: 'Bitter',serif;
+
+    background-color: grey;
+    background-image: url('images/okbeer.jpg');
+    background-attachment: fixed;
+
+    height: 500px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div{
+    overflow: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    
+    min-width: 80%;
+    max-width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    overflow: auto;
+    position: relative;
+}
+/*
+header, footer, main, aside {
+    max-width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+} */
+img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    max-height: 250px;
+}
+h1{
+    clear: both;
+}
+
+nav.signin {
+    float: right;
+    margin: 0;
+
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+header ul{
+    list-style-type: none;
+
+    min-width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: auto;
+}
+header ul li a{
+    text-align:center;
+    display:block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 20%;
+    max-width: 20%;
+    
+    float: left;
+    overflow: auto;
+
+    background-color: rgba(117, 120, 124, 1);
+}
+.nav-bar {
+    margin: 0;
+    padding: 0;
+
+
+    margin: auto;
+}
+a {
+	color: lightblue;
+	
+	font-size: 12pt;
+}
+a:visited {
+	color: orange;
+}
+a:hover {
+	background-color: rgba(127, 130, 134, 1);
+}
+a:active {
+	color: black;
+	
+	background-color: rgba(255, 255, 255, 1);
+}
+
+#currentpage{
+	background-color: rgba(127, 130, 134, 1);
+}
+.container {
+    float:left;
+    
+    width:40%;
+    max-width: 55%;
+    
+    overflow:auto;
+}
+.side{
+    padding-top: 200px;
+    
+    float:right;
+    
+    max-width: 40%;
+}
+
+main {
+    /*margin-left: 170px;
+    border-left: 1px solid gray; */
+    clear: both;
+
+    text-align: center;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.tblock{
+    padding: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    text-align:center;
+
+    border-radius: 10px 50px 10px 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: auto;
+}
+.smallbutton{
+    padding: 3px;
+    border: none;
+    background: none;
+
+    color: blue;
+    text-decoration: underline;
+
+    margin: 0 auto;
+}
+.smallform{
+    max-width: 50%;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    max-width: 20%;
+
+    float:left;
+
+    margin: auto;
+}
+.bx-wrapper {
+    max-height: 550px
+}
+
+.handfield input{
+    margin:0;padding:0;
+
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+}
+.like{background-image: url(./images/like.png);}
+.neutral{background-image: url(images/neutral.png);}
+.dislike{background-image: url('images/dislike.png');}
+
+.handfield input:active +.hand{opacity: .9;}
+.handfield input:checked +.hand{
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+}
+.hand{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:70px;height:45px;
+
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+    -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+    filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.hand:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+.hand:checked{
+    width:90px;height:60px;
+}
+/* 
+//Stuff copied from previously separate create.css
+*/
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+form>input:not([type=radio]) , .nicebutton{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+form>input[type=submit]:not([type=radio]), .nicebutton {
+    background-color: #a0522d;
+    color: white;
+}
+form>label>input[type=radio]{
+    clear:both;
+}
+/* Add a green #4CAF50 text color and a checkmark when the requirements are right. ***changed to a wood brown */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: 'Good';
+}
+
+
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: 'Not Met';
+}
+/* Stuff from clays old form css */
+
+input:not([type=radio]), select, textarea {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 2px;
+    border-color: darkgrey;
+}
+form {
+    border-radius: 3px;
+
+    /*box-shadow: 2px 2px 8px grey; */
+}
+label {
+    float: right;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+label, label>*:not(input[type=radio]){
+    text-align: right;
+    margin-right: 1em;
+}
+textarea{
+    overflow: auto;
+}
+
+form>*:not([type=radio]){
+    margin: 1em;
+
+}
+fieldset>*{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit{
+    position:relative;
+    display:block;
+
+    margin-left: auto;
+    margin-right: auto;
+}

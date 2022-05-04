@@ -1,0 +1,18 @@
+.slide-pane {
+    background:#344A5E;
+    color:#FFF;
+}
+.text-pane {
+    background:#344A5E;
+    color:#FFF;
+    padding:20px 0 0 20px !important;
+}
+h1 {
+    font-size:22px;
+    color: #2ecc71;
+    font-weight: bold
+}
+p {
+    font-size:13px;
+}
+
