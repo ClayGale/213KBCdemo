@@ -234,7 +234,7 @@ main {
     font-size: 18px;
 }
 
-form input:not([type=radio]), .nicebutton {
+form > input:not([type=radio]), .nicebutton {
     display: block;
     width: 55%;
     padding: 12px;
@@ -245,7 +245,7 @@ form input:not([type=radio]), .nicebutton {
     margin-bottom: 16px;
     text-align: left;
 }
-form input[type=submit]:not([type=radio]), .nicebutton {
+form > input[type=submit]:not([type=radio]), .nicebutton {
     background-color: #a0522d;
     color: white;
 }
