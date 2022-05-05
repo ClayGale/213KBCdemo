@@ -4,17 +4,15 @@ div.container {
 	
 }
 
-body{
-    font-family: 'Bitter',serif;
-
+body {
+    font-family: helvetica, 'Bitter', serif;
     background-color: grey;
     background-image: url('images/okbeer.jpg');
     background-attachment: fixed;
-
-    height: 500px;
-
+    min-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 div{
     overflow: auto;
@@ -35,12 +33,12 @@ header, footer {
     overflow: auto;
     position: relative;
 }
-/*
+
 header, footer, main, aside {
     max-width: 80%;
     margin-left:10%;
     margin-right:10%;
-} */
+} 
 img {
     display: block;
     margin: auto;
@@ -235,14 +233,16 @@ main {
     font-size: 18px;
 }
 
-form>input:not([type=radio]) , .nicebutton{
-    width: 50%;
+form > input:not([type=radio]), .nicebutton {
+    display: block;
+    width: 55%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    text-align: left;
 }
 form>input[type=submit]:not([type=radio]), .nicebutton {
     background-color: #a0522d;
@@ -286,7 +286,6 @@ form {
     /*box-shadow: 2px 2px 8px grey; */
 }
 label {
-    float: right;
     margin-top: 1em;
     margin-bottom: 1em;
 }
