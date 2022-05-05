@@ -10,6 +10,7 @@ body {
     background-image: url('images/okbeer.jpg');
     background-attachment: fixed;
     min-height: 500px;
+    max-width: 1500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,9 +233,6 @@ main {
     padding: 10px 35px;
     font-size: 18px;
 }
-form > label {
-    display: block;
-}
 
 form input:not([type=radio]), .nicebutton {
     display: block;
@@ -293,6 +291,7 @@ label {
     margin-bottom: 1em;
 }
 label, label>*:not(input[type=radio]){
+    text-align: right;
     margin-right: 1em;
 }
 textarea{
