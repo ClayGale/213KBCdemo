@@ -293,7 +293,6 @@ label {
     margin-bottom: 1em;
 }
 label, label>*:not(input[type=radio]){
-    text-align: right;
     margin-right: 1em;
 }
 textarea{
