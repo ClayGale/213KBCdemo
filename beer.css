@@ -4,17 +4,17 @@ div.container {
 	
 }
 
-body{
+body {
     font-family: 'Bitter',serif;
-
     background-color: grey;
     background-image: url('images/okbeer.jpg');
     background-attachment: fixed;
-
-    height: 500px;
-
+    background-attachment: fixed;
+    min-height: 500px;
+    max-width: 1500px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 div{
     overflow: auto;
@@ -291,7 +291,6 @@ label {
     margin-bottom: 1em;
 }
 label, label>*:not(input[type=radio]){
-    text-align: right;
     margin-right: 1em;
 }
 textarea{
