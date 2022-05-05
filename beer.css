@@ -10,11 +10,12 @@ body {
     background-image: url('images/okbeer.jpg');
     background-attachment: fixed;
     background-attachment: fixed;
-    min-height: 500px;
+    min-height: 1000px;
     max-width: 1500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: auto;
 }
 div{
     overflow: auto;
@@ -34,6 +35,9 @@ header, footer {
     margin-right:10%;
     overflow: auto;
     position: relative;
+}
+footer{
+    bottom: 0;
 }
 /*
 header, footer, main, aside {
