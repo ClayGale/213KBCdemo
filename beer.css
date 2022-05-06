@@ -170,6 +170,11 @@ main {
     flex-wrap:wrap;
     justify-content:center;
 }
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .nav-bar {
     margin: 0;
