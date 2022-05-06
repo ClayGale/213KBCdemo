@@ -5,7 +5,7 @@ div.container {
 }
 
 body {
-    font-family: 'Bitter',serif;
+    font-family: Helvetica, 'Bitter',serif;
     background-color: grey;
     background-image: url('images/okbeer.jpg');
     background-attachment: fixed;
@@ -166,6 +166,9 @@ main {
     position: relative;
     margin-left: 25%;
     margin-right: 25%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
 .nav-bar {
@@ -290,7 +293,7 @@ form {
     /*box-shadow: 2px 2px 8px grey; */
 }
 label {
-    float: right;
+
     margin-top: 1em;
     margin-bottom: 1em;
 }
